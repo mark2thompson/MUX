@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017E67FA2ECDB8C46392A700 /* 000IslandsViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B06562A4C9DF51B49F89EE /* 000IslandsViewController_Image_3.png */; };
+		02AA5E0B14D57AF2004CE70D /* Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA5E0614D57AF2004CE70D /* Gradient.m */; };
+		02AA5E0C14D57AF2004CE70D /* GradientNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA5E0814D57AF2004CE70D /* GradientNode.m */; };
+		02AA5E0D14D57AF2004CE70D /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA5E0A14D57AF2004CE70D /* GradientView.m */; };
+		02AA5E3814D59768004CE70D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AA5E3714D59768004CE70D /* CoreLocation.framework */; };
+		02AA5E3C14D597DB004CE70D /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AA5E3B14D597DB004CE70D /* MKMapView+ZoomLevel.m */; };
+		02C8A2B514C97CA60021F408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C8A2B414C97CA60021F408 /* UIKit.framework */; };
+		02C8A2B714C97CA60021F408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C8A2B614C97CA60021F408 /* Foundation.framework */; };
+		02C8A2B914C97CA60021F408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C8A2B814C97CA60021F408 /* CoreGraphics.framework */; };
+		02C8A2BF14C97CA60021F408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02C8A2BD14C97CA60021F408 /* InfoPlist.strings */; };
+		02C8A2C114C97CA60021F408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C8A2C014C97CA60021F408 /* main.m */; };
+		02C8A2C514C97CA60021F408 /* IFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C8A2C414C97CA60021F408 /* IFAppDelegate.m */; };
+		02C8A2CC14C97CC00021F408 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C8A2CB14C97CC00021F408 /* MapKit.framework */; };
+		02C8A2CE14C97CC80021F408 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C8A2CD14C97CC80021F408 /* QuartzCore.framework */; };
+		06D7081A56B4EFF9CF1B30DC /* 000IslandsViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C49F3CBFECACC978A1516D1B /* 000IslandsViewController_Image_1.png */; };
+		0A39BB49FBEAEC2C49C4F967 /* NewRouteViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C2A09E7E8FF2B9A2559B1F /* NewRouteViewController_Image_2.png */; };
+		0A7F7512F91115F03AABAAFE /* ConditionsViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D48CF5A5605DC6BCD30003 /* ConditionsViewController_Image_2.png */; };
+		0ADCF975EB9794D3F6EF1CCD /* ConditionsWithNavViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5CA6953BE65E0FFB4718C9 /* ConditionsWithNavViewController_Image_2.png */; };
+		0B4E2AF4DE412A2105631607 /* ConditionsWithNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A3DB201F948D3B0423F6DF /* ConditionsWithNavViewController.m */; };
+		1F9202EF6AC79EF399A4FA0E /* 000IslandsViewController_Image_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7186B5308B7D3BDF8DE500F3 /* 000IslandsViewController_Image_5.png */; };
+		25A62C098933CAE8510C1F8F /* 000IslandsViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA13B8DE093E3B44B2E1E3 /* 000IslandsViewController_Image_2.png */; };
+		26D91451A2FE47DB8480D5FD /* 000IslandsViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 511E7AE35C565929D99F7E15 /* 000IslandsViewController_Image_4.png */; };
+		2F5FA980EB4B5C5ED7D0BEF3 /* ConditionsWithNavViewController_Image_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FCB18C4208D2B60402C82 /* ConditionsWithNavViewController_Image_5.png */; };
+		3B5B225F570835DAAE1925FA /* FishOnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E71F5DF8701B63CBEBA8C53 /* FishOnViewController.m */; };
+		48E5BFF0AEBF37D6858FCDFF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C60F0EFDB1448437A3D4F9 /* SettingsViewController.m */; };
+		48FD745E778DABB8A08599CF /* PastRoutsViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BC513C6F93C619231A92DF /* PastRoutsViewController_Image_3.png */; };
+		5C578738D151197E492CD454 /* ConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA1FBE333CC87D4C0F6950 /* ConditionsViewController.m */; };
+		5C66669C42A187F9F643E86A /* NewRouteViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A100E26939D8F9770F5AFF5 /* NewRouteViewController_Image_4.png */; };
+		5CE0B1E5E74319681525BC4B /* ConditionsViewController_Image_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BE76CB68FEFE277386564000 /* ConditionsViewController_Image_5.png */; };
+		5FE7E9708EE45C6A5F0E97CE /* ConditionsWithNavViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C2A74D028ACFECCC86ECEA /* ConditionsWithNavViewController_Image_3.png */; };
+		6BF98EAF2873CCC339C330EF /* HomeViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 589CAEF22596002638824208 /* HomeViewController_Image_1.png */; };
+		747ABEE424B5155CD343E477 /* FishOnViewController_Image_5.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE139230FD8ED86F59F1D3B /* FishOnViewController_Image_5.png */; };
+		84721B5A94E7F82BF30885D9 /* NewRouteViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 219A0BF8D71FB17AF8C09626 /* NewRouteViewController_Image_1.png */; };
+		867D9AD18CF612B003C7A92B /* SettingsViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C48182552EACFA1EBDF761 /* SettingsViewController_Image_4.png */; };
+		925ABD3859DE384F2C059BB2 /* ConditionsWithNavViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 921F1E1C81E1B3A34875635E /* ConditionsWithNavViewController_Image_4.png */; };
+		92F7E8FC53B4DE7B7A5EA0AB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC00156F7AA2922C8ADDCB8 /* HomeViewController.m */; };
+		92FADCCC5FDAB738ABD41ADB /* ConditionsViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 602B7CA8F5915DB8322B29D7 /* ConditionsViewController_Image_3.png */; };
+		93B1873641F7DAA9D7D38B3F /* PastRoutsViewController_Image_5.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2AE05C74D082F0BC6C1D8E /* PastRoutsViewController_Image_5.png */; };
+		A07781256DCF16246922822F /* ConditionsViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B09CB896572F578C651A38 /* ConditionsViewController_Image_4.png */; };
+		A079C2F27DE99C6A101731BF /* FishOnViewController_Image_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 46473B9783FDFA3FE27555E6 /* FishOnViewController_Image_6.png */; };
+		A81224CEEDEE7741290F1CF8 /* FishOnViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1FA53EEE7CB7FAB016A13F /* FishOnViewController_Image_3.png */; };
+		B3FE6A8E5278DA981D63D1DD /* ConditionsViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DA911FB12239E99B9FD88CE /* ConditionsViewController_Image_1.png */; };
+		B5F0022AE25B04181AFE86B7 /* SettingsViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E808E4E1AB75835A0A38808 /* SettingsViewController_Image_3.png */; };
+		B6E819B1177A7AAEA1D87C7A /* IslandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAD51F7734614A517816700 /* IslandsViewController.m */; };
+		BC6E1D4FBA9C11FDDF55727E /* PastRoutsViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA070DA7B456DD0899339B0D /* PastRoutsViewController_Image_1.png */; };
+		BCCB382C1CB12F8FEACAF617 /* HomeViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E92FF49D2465F78300BDFD8D /* HomeViewController_Image_2.png */; };
+		C1308FCF094DD57030EE8028 /* ConditionsWithNavViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E736349C7009B614972006D /* ConditionsWithNavViewController_Image_1.png */; };
+		C21A27F02651274FE41F0402 /* PastRoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E77FD920D421AB8226E7B1 /* PastRoutsViewController.m */; };
+		C9257E50EB147719CC68CF75 /* HomeViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B44401A5D2920B0474FE3E /* HomeViewController_Image_4.png */; };
+		D0615B0C84898C55D8F22D0F /* ConditionsViewController_Image_8.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB786C8788B6085D03D584C /* ConditionsViewController_Image_8.png */; };
+		D3143876E67EFE39D4466B2B /* FishOnViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96340D36B9F21927F9147380 /* FishOnViewController_Image_1.png */; };
+		D7EFAA4387951A496D92E731 /* NewRouteViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FC04692D95FADCF13412A92 /* NewRouteViewController_Image_3.png */; };
+		DF9812E909914A67E9F90D53 /* PastRoutsViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B46B2ADFD989A20E52D6CAB1 /* PastRoutsViewController_Image_2.png */; };
+		E3A0F85231F4735D140506DD /* NewRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC898926AF9C48AAEC14D29F /* NewRouteViewController.m */; };
+		E77D5FA40B1AFEF92494C7BE /* FishOnViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6FFDC1B6B42890E19F98CBB /* FishOnViewController_Image_2.png */; };
+		E9FFA05A259376B4530FE54A /* PastRoutsViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 641EB4B3E29B3BA0FFA45238 /* PastRoutsViewController_Image_4.png */; };
+		EB3239C855D8BF28EF5729CB /* ConditionsViewController_Image_7.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F48F7D265F4197D6680627 /* ConditionsViewController_Image_7.png */; };
+		EBB9137B830FFFDF75B51C12 /* SettingsViewController_Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1E55F602B1A4E1BE4EFB92 /* SettingsViewController_Image_2.png */; };
+		EFE0EFC4153C0F74BD37F2AF /* ConditionsViewController_Image_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 96D84813D0F4F9086EB4DC46 /* ConditionsViewController_Image_6.png */; };
+		F310CBA689CB0C9722CDB53A /* FishOnViewController_Image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8442BDB7315174A85CBF8720 /* FishOnViewController_Image_4.png */; };
+		F7C718ACF2CD7ABC3834190D /* HomeViewController_Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 59CD820109CC007149D4B4A6 /* HomeViewController_Image_3.png */; };
+		FA859EC2A3EF05772822DDAA /* SettingsViewController_Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 577DD0EA4AD8E5BD3F87F1F6 /* SettingsViewController_Image_1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A3DB201F948D3B0423F6DF /* ConditionsWithNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConditionsWithNavViewController.m; sourceTree = "<group>"; };
+		02AA5E0514D57AF2004CE70D /* Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gradient.h; sourceTree = "<group>"; };
+		02AA5E0614D57AF2004CE70D /* Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gradient.m; sourceTree = "<group>"; };
+		02AA5E0714D57AF2004CE70D /* GradientNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientNode.h; sourceTree = "<group>"; };
+		02AA5E0814D57AF2004CE70D /* GradientNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientNode.m; sourceTree = "<group>"; };
+		02AA5E0914D57AF2004CE70D /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		02AA5E0A14D57AF2004CE70D /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		02AA5E3714D59768004CE70D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		02AA5E3A14D597DB004CE70D /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		02AA5E3B14D597DB004CE70D /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		02C8A2B014C97CA60021F408 /* Interface Export.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interface Export.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C8A2B414C97CA60021F408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02C8A2B614C97CA60021F408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02C8A2B814C97CA60021F408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02C8A2BC14C97CA60021F408 /* Interface Export-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Interface Export-Info.plist"; sourceTree = "<group>"; };
+		02C8A2BE14C97CA60021F408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02C8A2C014C97CA60021F408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02C8A2C214C97CA60021F408 /* Interface Export-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Interface Export-Prefix.pch"; sourceTree = "<group>"; };
+		02C8A2C314C97CA60021F408 /* IFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFAppDelegate.h; sourceTree = "<group>"; };
+		02C8A2C414C97CA60021F408 /* IFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFAppDelegate.m; sourceTree = "<group>"; };
+		02C8A2CB14C97CC00021F408 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		02C8A2CD14C97CC80021F408 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A100E26939D8F9770F5AFF5 /* NewRouteViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewRouteViewController_Image_4.png; sourceTree = "<group>"; };
+		0E808E4E1AB75835A0A38808 /* SettingsViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsViewController_Image_3.png; sourceTree = "<group>"; };
+		1EAA13B8DE093E3B44B2E1E3 /* 000IslandsViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000IslandsViewController_Image_2.png; sourceTree = "<group>"; };
+		219A0BF8D71FB17AF8C09626 /* NewRouteViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewRouteViewController_Image_1.png; sourceTree = "<group>"; };
+		238C4A719ABC5A35C853D807 /* ConditionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConditionsViewController.h; sourceTree = "<group>"; };
+		25F173652ED18977BE2D09CA /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2BDA1FBE333CC87D4C0F6950 /* ConditionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConditionsViewController.m; sourceTree = "<group>"; };
+		327ACF7748046CD7DEE62F0F /* FishOnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FishOnViewController.h; sourceTree = "<group>"; };
+		37B44401A5D2920B0474FE3E /* HomeViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeViewController_Image_4.png; sourceTree = "<group>"; };
+		39E77FD920D421AB8226E7B1 /* PastRoutsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PastRoutsViewController.m; sourceTree = "<group>"; };
+		3B5CA6953BE65E0FFB4718C9 /* ConditionsWithNavViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsWithNavViewController_Image_2.png; sourceTree = "<group>"; };
+		46473B9783FDFA3FE27555E6 /* FishOnViewController_Image_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FishOnViewController_Image_6.png; sourceTree = "<group>"; };
+		4A1FA53EEE7CB7FAB016A13F /* FishOnViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FishOnViewController_Image_3.png; sourceTree = "<group>"; };
+		511E7AE35C565929D99F7E15 /* 000IslandsViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000IslandsViewController_Image_4.png; sourceTree = "<group>"; };
+		577DD0EA4AD8E5BD3F87F1F6 /* SettingsViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsViewController_Image_1.png; sourceTree = "<group>"; };
+		584A6E87F46C19CB710158FD /* IslandsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IslandsViewController.h; sourceTree = "<group>"; };
+		589CAEF22596002638824208 /* HomeViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeViewController_Image_1.png; sourceTree = "<group>"; };
+		59CD820109CC007149D4B4A6 /* HomeViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeViewController_Image_3.png; sourceTree = "<group>"; };
+		5B1E55F602B1A4E1BE4EFB92 /* SettingsViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsViewController_Image_2.png; sourceTree = "<group>"; };
+		5E71F5DF8701B63CBEBA8C53 /* FishOnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishOnViewController.m; sourceTree = "<group>"; };
+		602B7CA8F5915DB8322B29D7 /* ConditionsViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_3.png; sourceTree = "<group>"; };
+		641EB4B3E29B3BA0FFA45238 /* PastRoutsViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastRoutsViewController_Image_4.png; sourceTree = "<group>"; };
+		6CAD51F7734614A517816700 /* IslandsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IslandsViewController.m; sourceTree = "<group>"; };
+		6FC00156F7AA2922C8ADDCB8 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7186B5308B7D3BDF8DE500F3 /* 000IslandsViewController_Image_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000IslandsViewController_Image_5.png; sourceTree = "<group>"; };
+		821CA9596C918DDA184921D5 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		82C48182552EACFA1EBDF761 /* SettingsViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsViewController_Image_4.png; sourceTree = "<group>"; };
+		8442BDB7315174A85CBF8720 /* FishOnViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FishOnViewController_Image_4.png; sourceTree = "<group>"; };
+		8D4309664D1816AE29C4CB48 /* ConditionsWithNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConditionsWithNavViewController.h; sourceTree = "<group>"; };
+		8DA911FB12239E99B9FD88CE /* ConditionsViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_1.png; sourceTree = "<group>"; };
+		8E736349C7009B614972006D /* ConditionsWithNavViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsWithNavViewController_Image_1.png; sourceTree = "<group>"; };
+		921F1E1C81E1B3A34875635E /* ConditionsWithNavViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsWithNavViewController_Image_4.png; sourceTree = "<group>"; };
+		96340D36B9F21927F9147380 /* FishOnViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FishOnViewController_Image_1.png; sourceTree = "<group>"; };
+		96D84813D0F4F9086EB4DC46 /* ConditionsViewController_Image_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_6.png; sourceTree = "<group>"; };
+		9FC04692D95FADCF13412A92 /* NewRouteViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewRouteViewController_Image_3.png; sourceTree = "<group>"; };
+		A3C2A74D028ACFECCC86ECEA /* ConditionsWithNavViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsWithNavViewController_Image_3.png; sourceTree = "<group>"; };
+		A7C2A09E7E8FF2B9A2559B1F /* NewRouteViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewRouteViewController_Image_2.png; sourceTree = "<group>"; };
+		AA070DA7B456DD0899339B0D /* PastRoutsViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastRoutsViewController_Image_1.png; sourceTree = "<group>"; };
+		AEB786C8788B6085D03D584C /* ConditionsViewController_Image_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_8.png; sourceTree = "<group>"; };
+		B46B2ADFD989A20E52D6CAB1 /* PastRoutsViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastRoutsViewController_Image_2.png; sourceTree = "<group>"; };
+		BA6B6650A21F1DA933A794CD /* NewRouteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewRouteViewController.h; sourceTree = "<group>"; };
+		BC898926AF9C48AAEC14D29F /* NewRouteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewRouteViewController.m; sourceTree = "<group>"; };
+		BE76CB68FEFE277386564000 /* ConditionsViewController_Image_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_5.png; sourceTree = "<group>"; };
+		C49F3CBFECACC978A1516D1B /* 000IslandsViewController_Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000IslandsViewController_Image_1.png; sourceTree = "<group>"; };
+		C6FFDC1B6B42890E19F98CBB /* FishOnViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FishOnViewController_Image_2.png; sourceTree = "<group>"; };
+		C8F48F7D265F4197D6680627 /* ConditionsViewController_Image_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_7.png; sourceTree = "<group>"; };
+		C9D48CF5A5605DC6BCD30003 /* ConditionsViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_2.png; sourceTree = "<group>"; };
+		CCE139230FD8ED86F59F1D3B /* FishOnViewController_Image_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FishOnViewController_Image_5.png; sourceTree = "<group>"; };
+		DB2AE05C74D082F0BC6C1D8E /* PastRoutsViewController_Image_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastRoutsViewController_Image_5.png; sourceTree = "<group>"; };
+		E3B09CB896572F578C651A38 /* ConditionsViewController_Image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsViewController_Image_4.png; sourceTree = "<group>"; };
+		E5BC513C6F93C619231A92DF /* PastRoutsViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastRoutsViewController_Image_3.png; sourceTree = "<group>"; };
+		E5C60F0EFDB1448437A3D4F9 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E5D3191F632399C916E5B808 /* PastRoutsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PastRoutsViewController.h; sourceTree = "<group>"; };
+		E92FF49D2465F78300BDFD8D /* HomeViewController_Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeViewController_Image_2.png; sourceTree = "<group>"; };
+		E9B06562A4C9DF51B49F89EE /* 000IslandsViewController_Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 000IslandsViewController_Image_3.png; sourceTree = "<group>"; };
+		F72FCB18C4208D2B60402C82 /* ConditionsWithNavViewController_Image_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ConditionsWithNavViewController_Image_5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C8A2AD14C97CA60021F408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8A2CE14C97CC80021F408 /* QuartzCore.framework in Frameworks */,
+				02C8A2CC14C97CC00021F408 /* MapKit.framework in Frameworks */,
+				02C8A2B514C97CA60021F408 /* UIKit.framework in Frameworks */,
+				02C8A2B714C97CA60021F408 /* Foundation.framework in Frameworks */,
+				02C8A2B914C97CA60021F408 /* CoreGraphics.framework in Frameworks */,
+				02AA5E3814D59768004CE70D /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C8A2A514C97CA60021F408 = {
+			isa = PBXGroup;
+			children = (
+				02C8A2BA14C97CA60021F408 /* Interface Export */,
+				02C8A2B314C97CA60021F408 /* Frameworks */,
+				02C8A2B114C97CA60021F408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C8A2B114C97CA60021F408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C8A2B014C97CA60021F408 /* Interface Export.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C8A2B314C97CA60021F408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AA5E3714D59768004CE70D /* CoreLocation.framework */,
+				02C8A2CD14C97CC80021F408 /* QuartzCore.framework */,
+				02C8A2CB14C97CC00021F408 /* MapKit.framework */,
+				02C8A2B414C97CA60021F408 /* UIKit.framework */,
+				02C8A2B614C97CA60021F408 /* Foundation.framework */,
+				02C8A2B814C97CA60021F408 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02C8A2BA14C97CA60021F408 /* Interface Export */ = {
+			isa = PBXGroup;
+			children = (
+				02C8A2C314C97CA60021F408 /* IFAppDelegate.h */,
+				02C8A2C414C97CA60021F408 /* IFAppDelegate.m */,
+				25F173652ED18977BE2D09CA /* HomeViewController.h */,
+				6FC00156F7AA2922C8ADDCB8 /* HomeViewController.m */,
+				584A6E87F46C19CB710158FD /* IslandsViewController.h */,
+				6CAD51F7734614A517816700 /* IslandsViewController.m */,
+				238C4A719ABC5A35C853D807 /* ConditionsViewController.h */,
+				2BDA1FBE333CC87D4C0F6950 /* ConditionsViewController.m */,
+				327ACF7748046CD7DEE62F0F /* FishOnViewController.h */,
+				5E71F5DF8701B63CBEBA8C53 /* FishOnViewController.m */,
+				E5D3191F632399C916E5B808 /* PastRoutsViewController.h */,
+				39E77FD920D421AB8226E7B1 /* PastRoutsViewController.m */,
+				8D4309664D1816AE29C4CB48 /* ConditionsWithNavViewController.h */,
+				00A3DB201F948D3B0423F6DF /* ConditionsWithNavViewController.m */,
+				821CA9596C918DDA184921D5 /* SettingsViewController.h */,
+				E5C60F0EFDB1448437A3D4F9 /* SettingsViewController.m */,
+				BA6B6650A21F1DA933A794CD /* NewRouteViewController.h */,
+				BC898926AF9C48AAEC14D29F /* NewRouteViewController.m */,
+				589CAEF22596002638824208 /* HomeViewController_Image_1.png */,
+				E92FF49D2465F78300BDFD8D /* HomeViewController_Image_2.png */,
+				59CD820109CC007149D4B4A6 /* HomeViewController_Image_3.png */,
+				37B44401A5D2920B0474FE3E /* HomeViewController_Image_4.png */,
+				C49F3CBFECACC978A1516D1B /* 000IslandsViewController_Image_1.png */,
+				1EAA13B8DE093E3B44B2E1E3 /* 000IslandsViewController_Image_2.png */,
+				E9B06562A4C9DF51B49F89EE /* 000IslandsViewController_Image_3.png */,
+				511E7AE35C565929D99F7E15 /* 000IslandsViewController_Image_4.png */,
+				7186B5308B7D3BDF8DE500F3 /* 000IslandsViewController_Image_5.png */,
+				8DA911FB12239E99B9FD88CE /* ConditionsViewController_Image_1.png */,
+				C9D48CF5A5605DC6BCD30003 /* ConditionsViewController_Image_2.png */,
+				602B7CA8F5915DB8322B29D7 /* ConditionsViewController_Image_3.png */,
+				E3B09CB896572F578C651A38 /* ConditionsViewController_Image_4.png */,
+				BE76CB68FEFE277386564000 /* ConditionsViewController_Image_5.png */,
+				96D84813D0F4F9086EB4DC46 /* ConditionsViewController_Image_6.png */,
+				C8F48F7D265F4197D6680627 /* ConditionsViewController_Image_7.png */,
+				AEB786C8788B6085D03D584C /* ConditionsViewController_Image_8.png */,
+				96340D36B9F21927F9147380 /* FishOnViewController_Image_1.png */,
+				C6FFDC1B6B42890E19F98CBB /* FishOnViewController_Image_2.png */,
+				4A1FA53EEE7CB7FAB016A13F /* FishOnViewController_Image_3.png */,
+				8442BDB7315174A85CBF8720 /* FishOnViewController_Image_4.png */,
+				CCE139230FD8ED86F59F1D3B /* FishOnViewController_Image_5.png */,
+				46473B9783FDFA3FE27555E6 /* FishOnViewController_Image_6.png */,
+				AA070DA7B456DD0899339B0D /* PastRoutsViewController_Image_1.png */,
+				B46B2ADFD989A20E52D6CAB1 /* PastRoutsViewController_Image_2.png */,
+				E5BC513C6F93C619231A92DF /* PastRoutsViewController_Image_3.png */,
+				641EB4B3E29B3BA0FFA45238 /* PastRoutsViewController_Image_4.png */,
+				DB2AE05C74D082F0BC6C1D8E /* PastRoutsViewController_Image_5.png */,
+				8E736349C7009B614972006D /* ConditionsWithNavViewController_Image_1.png */,
+				3B5CA6953BE65E0FFB4718C9 /* ConditionsWithNavViewController_Image_2.png */,
+				A3C2A74D028ACFECCC86ECEA /* ConditionsWithNavViewController_Image_3.png */,
+				921F1E1C81E1B3A34875635E /* ConditionsWithNavViewController_Image_4.png */,
+				F72FCB18C4208D2B60402C82 /* ConditionsWithNavViewController_Image_5.png */,
+				577DD0EA4AD8E5BD3F87F1F6 /* SettingsViewController_Image_1.png */,
+				5B1E55F602B1A4E1BE4EFB92 /* SettingsViewController_Image_2.png */,
+				0E808E4E1AB75835A0A38808 /* SettingsViewController_Image_3.png */,
+				82C48182552EACFA1EBDF761 /* SettingsViewController_Image_4.png */,
+				219A0BF8D71FB17AF8C09626 /* NewRouteViewController_Image_1.png */,
+				A7C2A09E7E8FF2B9A2559B1F /* NewRouteViewController_Image_2.png */,
+				9FC04692D95FADCF13412A92 /* NewRouteViewController_Image_3.png */,
+				0A100E26939D8F9770F5AFF5 /* NewRouteViewController_Image_4.png */,
+				02C8A2BB14C97CA60021F408 /* Supporting Files */,
+			);
+			path = "Interface Export";
+			sourceTree = "<group>";
+		};
+		02C8A2BB14C97CA60021F408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02AA5E0514D57AF2004CE70D /* Gradient.h */,
+				02AA5E0614D57AF2004CE70D /* Gradient.m */,
+				02AA5E0714D57AF2004CE70D /* GradientNode.h */,
+				02AA5E0814D57AF2004CE70D /* GradientNode.m */,
+				02AA5E0914D57AF2004CE70D /* GradientView.h */,
+				02AA5E0A14D57AF2004CE70D /* GradientView.m */,
+				02AA5E3A14D597DB004CE70D /* MKMapView+ZoomLevel.h */,
+				02AA5E3B14D597DB004CE70D /* MKMapView+ZoomLevel.m */,
+				02C8A2BC14C97CA60021F408 /* Interface Export-Info.plist */,
+				02C8A2BD14C97CA60021F408 /* InfoPlist.strings */,
+				02C8A2C014C97CA60021F408 /* main.m */,
+				02C8A2C214C97CA60021F408 /* Interface Export-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C8A2AF14C97CA60021F408 /* Interface Export */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C8A2C814C97CA60021F408 /* Build configuration list for PBXNativeTarget "Interface Export" */;
+			buildPhases = (
+				02C8A2AC14C97CA60021F408 /* Sources */,
+				02C8A2AD14C97CA60021F408 /* Frameworks */,
+				02C8A2AE14C97CA60021F408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interface Export";
+			productName = "Interface Export";
+			productReference = 02C8A2B014C97CA60021F408 /* Interface Export.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C8A2A714C97CA60021F408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Less Code Limited";
+			};
+			buildConfigurationList = 02C8A2AA14C97CA60021F408 /* Build configuration list for PBXProject "Interface Export" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02C8A2A514C97CA60021F408;
+			productRefGroup = 02C8A2B114C97CA60021F408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C8A2AF14C97CA60021F408 /* Interface Export */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C8A2AE14C97CA60021F408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8A2BF14C97CA60021F408 /* InfoPlist.strings in Resources */,
+				6BF98EAF2873CCC339C330EF /* HomeViewController_Image_1.png in Resources */,
+				BCCB382C1CB12F8FEACAF617 /* HomeViewController_Image_2.png in Resources */,
+				F7C718ACF2CD7ABC3834190D /* HomeViewController_Image_3.png in Resources */,
+				C9257E50EB147719CC68CF75 /* HomeViewController_Image_4.png in Resources */,
+				06D7081A56B4EFF9CF1B30DC /* 000IslandsViewController_Image_1.png in Resources */,
+				25A62C098933CAE8510C1F8F /* 000IslandsViewController_Image_2.png in Resources */,
+				017E67FA2ECDB8C46392A700 /* 000IslandsViewController_Image_3.png in Resources */,
+				26D91451A2FE47DB8480D5FD /* 000IslandsViewController_Image_4.png in Resources */,
+				1F9202EF6AC79EF399A4FA0E /* 000IslandsViewController_Image_5.png in Resources */,
+				B3FE6A8E5278DA981D63D1DD /* ConditionsViewController_Image_1.png in Resources */,
+				0A7F7512F91115F03AABAAFE /* ConditionsViewController_Image_2.png in Resources */,
+				92FADCCC5FDAB738ABD41ADB /* ConditionsViewController_Image_3.png in Resources */,
+				A07781256DCF16246922822F /* ConditionsViewController_Image_4.png in Resources */,
+				5CE0B1E5E74319681525BC4B /* ConditionsViewController_Image_5.png in Resources */,
+				EFE0EFC4153C0F74BD37F2AF /* ConditionsViewController_Image_6.png in Resources */,
+				EB3239C855D8BF28EF5729CB /* ConditionsViewController_Image_7.png in Resources */,
+				D0615B0C84898C55D8F22D0F /* ConditionsViewController_Image_8.png in Resources */,
+				D3143876E67EFE39D4466B2B /* FishOnViewController_Image_1.png in Resources */,
+				E77D5FA40B1AFEF92494C7BE /* FishOnViewController_Image_2.png in Resources */,
+				A81224CEEDEE7741290F1CF8 /* FishOnViewController_Image_3.png in Resources */,
+				F310CBA689CB0C9722CDB53A /* FishOnViewController_Image_4.png in Resources */,
+				747ABEE424B5155CD343E477 /* FishOnViewController_Image_5.png in Resources */,
+				A079C2F27DE99C6A101731BF /* FishOnViewController_Image_6.png in Resources */,
+				BC6E1D4FBA9C11FDDF55727E /* PastRoutsViewController_Image_1.png in Resources */,
+				DF9812E909914A67E9F90D53 /* PastRoutsViewController_Image_2.png in Resources */,
+				48FD745E778DABB8A08599CF /* PastRoutsViewController_Image_3.png in Resources */,
+				E9FFA05A259376B4530FE54A /* PastRoutsViewController_Image_4.png in Resources */,
+				93B1873641F7DAA9D7D38B3F /* PastRoutsViewController_Image_5.png in Resources */,
+				C1308FCF094DD57030EE8028 /* ConditionsWithNavViewController_Image_1.png in Resources */,
+				0ADCF975EB9794D3F6EF1CCD /* ConditionsWithNavViewController_Image_2.png in Resources */,
+				5FE7E9708EE45C6A5F0E97CE /* ConditionsWithNavViewController_Image_3.png in Resources */,
+				925ABD3859DE384F2C059BB2 /* ConditionsWithNavViewController_Image_4.png in Resources */,
+				2F5FA980EB4B5C5ED7D0BEF3 /* ConditionsWithNavViewController_Image_5.png in Resources */,
+				FA859EC2A3EF05772822DDAA /* SettingsViewController_Image_1.png in Resources */,
+				EBB9137B830FFFDF75B51C12 /* SettingsViewController_Image_2.png in Resources */,
+				B5F0022AE25B04181AFE86B7 /* SettingsViewController_Image_3.png in Resources */,
+				867D9AD18CF612B003C7A92B /* SettingsViewController_Image_4.png in Resources */,
+				84721B5A94E7F82BF30885D9 /* NewRouteViewController_Image_1.png in Resources */,
+				0A39BB49FBEAEC2C49C4F967 /* NewRouteViewController_Image_2.png in Resources */,
+				D7EFAA4387951A496D92E731 /* NewRouteViewController_Image_3.png in Resources */,
+				5C66669C42A187F9F643E86A /* NewRouteViewController_Image_4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C8A2AC14C97CA60021F408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C8A2C114C97CA60021F408 /* main.m in Sources */,
+				02C8A2C514C97CA60021F408 /* IFAppDelegate.m in Sources */,
+				02AA5E0B14D57AF2004CE70D /* Gradient.m in Sources */,
+				02AA5E0C14D57AF2004CE70D /* GradientNode.m in Sources */,
+				02AA5E0D14D57AF2004CE70D /* GradientView.m in Sources */,
+				02AA5E3C14D597DB004CE70D /* MKMapView+ZoomLevel.m in Sources */,
+				92F7E8FC53B4DE7B7A5EA0AB /* HomeViewController.m in Sources */,
+				B6E819B1177A7AAEA1D87C7A /* IslandsViewController.m in Sources */,
+				5C578738D151197E492CD454 /* ConditionsViewController.m in Sources */,
+				3B5B225F570835DAAE1925FA /* FishOnViewController.m in Sources */,
+				C21A27F02651274FE41F0402 /* PastRoutsViewController.m in Sources */,
+				0B4E2AF4DE412A2105631607 /* ConditionsWithNavViewController.m in Sources */,
+				48E5BFF0AEBF37D6858FCDFF /* SettingsViewController.m in Sources */,
+				E3A0F85231F4735D140506DD /* NewRouteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02C8A2BD14C97CA60021F408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C8A2BE14C97CA60021F408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C8A2C614C97CA60021F408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02C8A2C714C97CA60021F408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C8A2C914C97CA60021F408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interface Export/Interface Export-Prefix.pch";
+				INFOPLIST_FILE = "Interface Export/Interface Export-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02C8A2CA14C97CA60021F408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Interface Export/Interface Export-Prefix.pch";
+				INFOPLIST_FILE = "Interface Export/Interface Export-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C8A2AA14C97CA60021F408 /* Build configuration list for PBXProject "Interface Export" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C8A2C614C97CA60021F408 /* Debug */,
+				02C8A2C714C97CA60021F408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C8A2C814C97CA60021F408 /* Build configuration list for PBXNativeTarget "Interface Export" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C8A2C914C97CA60021F408 /* Debug */,
+				02C8A2CA14C97CA60021F408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02C8A2A714C97CA60021F408 /* Project object */;
+}
